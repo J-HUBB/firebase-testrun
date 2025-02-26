@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.boldtxt {
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav__links {
+  margin-left: 16px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.nav__list {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.regbtn {
+  background-color: #7342d6;
   color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.loginbtn {
+  padding: 12px 24px;
+  font-size: 20px;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoutbtn {
+  width: 40px;
+  height: 40px;
+  background-color: #7645d9;
+  border-radius: 50%;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.skeleton__loading {
+  height: 46px;
+  width: 120px;
+  background-color:  rgb(204, 204, 204);
+}
+
+.skeleton__logout {
+ width: 40px;
+ height: 40px;
+ background-color: rgb(204, 204, 204); 
+ border-radius: 50%;
+ border: none;
 }
