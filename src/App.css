@@ -2,7 +2,7 @@
   
 }
 
-.nav__container {
+.nav__container, .logoutbtn, .skeleton__logout {
   width: 100%;
   max-width: 1200px;
   padding: 0 24px;
@@ -58,7 +58,7 @@
 }
 
 .skeleton__logout {
- width: 40px;
+ width: 3px;
  height: 40px;
  background-color: rgb(204, 204, 204); 
  border-radius: 50%;
